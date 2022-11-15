@@ -1,0 +1,31 @@
+*{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main{
+    width: 100%;
+    margin: 120px auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#fora{
+    width: 400px;
+    height: 400px;
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 16px;
+    position: relative;
+}
+
+span#dentro{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #1565c0;
+    border-radius: 100%;
+}
